@@ -1,0 +1,244 @@
+/* PAGE HOME */
+
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: palevioletred;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    
+}
+
+.navbar-container{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 20vh;
+    margin-bottom:  60px;
+}
+
+.ul-navbar{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar{
+    list-style-type: none;
+    padding: 10px 20px;
+    margin: 60px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar:hover {
+    background-color: palevioletred;
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 8px;
+}
+
+.a-navbar{
+    color: white;
+    text-decoration: none;
+}
+
+.content-container{
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.a-content{
+    width: 200px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.img-content{
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 20px pink;
+    transition: 0.3s;
+    margin-top: 120px
+}
+
+.img-content:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 30px hotpink;
+}
+
+.judul-content{
+    color: white;
+    font-size: 35px;
+    text-shadow: 0 0 10px pink;
+    margin-top: 10px;
+}
+
+.text-content{
+    color: white;
+    text-align: center;
+    max-width: 500px;
+    opacity: 0.9;
+}
+
+.btn-content{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: pink;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.btn-content:hover{
+    background: hotpink;
+    transform: scale(1.05);
+}
+
+/* PAGE HOME SELESAI */
+
+/* PAGE ABOUT KAEYLA */
+
+.navbar-container1{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 20vh;
+    margin-bottom: 30px;
+}
+
+.ul-navbar1{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar1{
+    list-style-type: none;
+    padding: 10px 30px;
+    margin: 0 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar1:hover {
+    background-color: palevioletred;
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 8px;
+    transition: background-color .3s ease;
+}
+
+.a-navbar1{
+    color: white;
+    text-decoration: none;
+}
+
+.content-container1{
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 70vh;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+
+.img-content-1{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    object-fit: cover;
+    border: 4px, solid white;
+    box-shadow: 0 0 10px rgba(255,255,255,0.6), 0 0 20px rgba(255,255,255,0.6);
+    margin: 10px;
+    transition: all 0.3s ease;
+    aspect-ratio: 16/9;
+}
+
+
+.img-content-1:hover{
+    transform: scale(1.08);
+    box-shadow: 0 0 15px rgba(255,255,255,0.9), 0 0 30px rgba(255,105,180,0.9);
+    border: 4px solid #ff69b4;
+}
+
+.container-content1{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.kiri{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(255,255,255,0.1);
+    padding: 15px;
+    border-radius: 20px;
+    gap: 15px;
+    max-width: 500px;
+
+}
+
+.kanan{
+    margin-left: 40px;
+    max-width: 300px;
+    background-color: rgba(255,255,255,0.1);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.text-kanan{
+    max-width: 300px;
+    margin-left: 40px;
+}
+
+.text-kanan-h2{
+    font-family: Pacifo, cursive;
+    color: black;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.text-kanan-p{
+    font-family: Quicksand, sans-serif;
+    color: white;
+    background-color: rgba(255,255,255,0.2);
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+ /* PAGE ABOUT KAEYLA SELESAI */
+
+
+ 
+
+ 
+
+
+
+    
